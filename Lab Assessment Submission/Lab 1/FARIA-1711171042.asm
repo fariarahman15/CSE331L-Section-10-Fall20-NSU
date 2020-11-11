@@ -12,7 +12,7 @@ MOV CX, 5
 
 
 ADD BX, CX
-ADD AX ,BX
+ADD AX, BX
 
 ret
 
