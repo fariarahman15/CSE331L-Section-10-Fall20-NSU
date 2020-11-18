@@ -5,6 +5,7 @@
 org 100h
 
 C DB 5 DUP(1)
+MOV AL,C
 
 ret
 

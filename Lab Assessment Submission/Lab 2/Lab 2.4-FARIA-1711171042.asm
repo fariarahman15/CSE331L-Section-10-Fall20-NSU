@@ -4,8 +4,9 @@
 
 org 100h
 
-ARRAY DB 1, 2  
-C DB (6) DUP(1,2)
+  
+ARRAY DB (6) DUP(1,2) 
+MOV AL, ARRAY
 
 ret
 
